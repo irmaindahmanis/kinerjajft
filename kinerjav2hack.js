@@ -75,7 +75,7 @@ $('body').prepend(modalLoading)
 $('#loadingModal').modal('show')
 
 let nip = ($('.info p').text()).match(/\d+/)[0]
-let gs = 'https://script.google.com/macros/s/AKfycbxOPkfvZceJ4b61SgZHEe_hDUb6lDAg7UkDvj-2P8OEqc5clF4tjD2PQQp7jKSqFb0M/exec'
+let gs = 'https://script.google.com/macros/s/AKfycbxlPnxaN-PzcktUzSKfnNEslPmsfHc-5ufd1jc9NHon2zEUL0KUXP2zrzrnDNRcfDOX/exec'
 let nipStafSekolah = '', klasifikasi = ''
 let isi2 = {}, isi3 = {}
 let proto = location.protocol == 'http:' ? 'http:' : 'https:'
